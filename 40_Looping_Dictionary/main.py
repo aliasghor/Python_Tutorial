@@ -38,3 +38,10 @@ data_items = alis_identity.items()
 
 for key, value in alis_identity.items():
     print(f"{key} : {value}")
+
+
+# Delete a dictonary key
+print("\nDelete a dictonary key")
+
+del alis_identity['University']
+print(alis_identity)
