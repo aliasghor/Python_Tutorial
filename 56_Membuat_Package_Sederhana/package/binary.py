@@ -1,0 +1,1 @@
+angka_binary = 0b00001001
