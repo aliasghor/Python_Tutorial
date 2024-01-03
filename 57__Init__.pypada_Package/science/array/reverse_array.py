@@ -1,0 +1,1 @@
+array_reverse = lambda list : list[::-1]
