@@ -1,0 +1,1 @@
+from .moduleInsidePackage import findCommonNumbers
