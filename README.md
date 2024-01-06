@@ -1,6 +1,4 @@
-this is repository is a part of my learning journey of how to use a Python basic programming language
-the source is from my best great online lecturer
-<br>
-<a href="https://github.com/kelasterbuka">This is his github account</a>
-<br>
-<a href="https://www.youtube.com/@KelasTerbuka">And this his youtube channel</a>
+This repository contains a folder and those folders are my part of my learning Python journey
+This is the source lessoned that i learn <br>
+<a href="https://github.com/kelasterbuka">This his GitHub</a> and <a href="https://www.youtube.com/@KelasTerbuka">This is his YouTube channel</a> and <a href="https://www.instagram.com/kelasterbuka/">This is his IG</a><br>
+i learned Python by self-taught from an online "lecturer" called Faqihza Mukhlish.he is a lecturer from a campuss called ITB(institute technology bandung) and a PHD graduation from UNSW
