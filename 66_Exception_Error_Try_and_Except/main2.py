@@ -33,15 +33,15 @@ while True:
         result = calculate(num1,option,num2)
         print(f"Your result is = {result}")
 
-        is_done = input("Do you want to exit from this program? (Y/N): ")
-
-        if is_done == 'y' or is_done == 'Y':
-            break
 
     except Exception as e:
         print(e)
         os.system("pause")
 
+    is_done = input("Do you want to exit from this program? (Y/N): ")
+
+    if is_done == 'y' or is_done == 'Y':
+        break
 print("Program finished")
 
 def factorial(num: int) -> int:
@@ -56,5 +56,5 @@ def factorial(num: int) -> int:
         print(num,'x',end=' ')
         return num * factorial(num - 1)
     
-hasil_factorial = factorial("Gerry")
+hasil_factorial = factorial(15)
 print(f"{hasil_factorial:,}")
