@@ -1,26 +1,31 @@
 """
-    A super() function is used to retrieve a method that is belong to the super class (based class/parent class).
+    super() function is used to give access to methods, attributes of parent or sibling class. super() function returns an object that represents the parent class.
 """
-
-# An examples the usage of super() function:
 
 class Hero:
     def __init__(self, name: str, health: int) -> None:
         self.name = name
         self.health = health
 
-    def __str__(self):
-        return f"Hero's name: {self.name}; \nHero's health: {self.health}."
+    def __str__(self) -> str:
+        return f"{self.name} has a health for about = {self.health}"
     
+    def __repr__(self) -> str:
+        return f"{type(self).__name__}('{self.name}', {self.health})"
+
 class HeroStrength(Hero):
-    def __init__(self, name: str, health: int) -> None:
-        super().__init__(name, health)
+    def __init__(self, name: str) -> None:
+        super().__init__(name, 100)
 
 class HeroIntelligent(Hero):
-    def __init__(self, name: str, health: int) -> None:
-        super().__init__(name, health)
-    
-gerry = HeroIntelligent("Gerry",100)
-mogi = HeroStrength("Mogi",50)
+    def __init__(self, name: str) -> None:
+        super().__init__(name, 200)
+
+
+gerry = HeroStrength("Gerry")
+mogi = HeroIntelligent("Mogi")
+
 print(gerry)
 print(mogi)
+print(repr(gerry))
+print(repr(mogi))
