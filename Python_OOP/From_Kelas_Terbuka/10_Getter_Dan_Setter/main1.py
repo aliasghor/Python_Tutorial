@@ -1,11 +1,11 @@
-import hero
+import hero1
 
 # Create a top-level code environment. A top-level code is where we run the script directly; it is top-level because we imported the module that the main program needs. A top level-code is sometimes called an entry point to our program.
 
 # Check if the module is equal to __main__. If it does then execute this condition.
 if __name__ == '__main__':
     # Specified the module and instanciate the class.
-    gerry = hero.Hero("Gerry",100,50)
+    gerry = hero1.Hero("Gerry",100,50)
 
     # Print the object representation
     print(gerry)
