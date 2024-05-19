@@ -1,3 +1,5 @@
+# Ini adalah file latihan pertama mengenai 04_Mengenai+Variabel.
+
 """
     Cara membuat Variabel
 
