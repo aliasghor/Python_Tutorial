@@ -1,4 +1,4 @@
-This repository contains a folder and those folders are my part of my learning Python journey
-This is the source lessoned that i learn <br>
-<a href="https://github.com/kelasterbuka">This is his GitHub</a> and <a href="https://www.youtube.com/@KelasTerbuka">This is his YouTube channel</a> and <a href="https://www.instagram.com/kelasterbuka/">This is his IG</a><br>
-i learned Python by self-taught from an online "lecturer" called Faqihza Mukhlish.he is a lecturer from a campuss called ITB(institute technology bandung) and a PHD graduation from UNSW
+<h1>Greetings👋, for those who seen this repository.</h1>
+<hr>
+<h2>An introduction to the repository</h2>
+<p>This respository covers all the basics and Object-Oriented Programming (OOP) of Python programming language. The reason why i created this repository besides that i do not want to lose all of my folders is because: i just want to share to public of my Python studying journey. Because for me studying deserves to be exhibited (note that do not be exaggerated when exhibit something) so that our family and friends can see our studying journey.</p>
